@@ -5,18 +5,13 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <title>Laravel</title>
+    <title>codeSteps</title>
 
-    <!-- Fonts -->
-    {{-- <link rel="preconnect" href="https://fonts.bunny.net">
-    <link href="https://fonts.bunny.net/css?family=instrument-sans:400,500,600" rel="stylesheet" /> --}}
 
-    {{-- <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Reddit+Sans:ital,wght@0,200..900;1,200..900&display=swap"
-        rel="stylesheet"> --}}
     <link href="https://fonts.googleapis.com/css2?family=Reddit+Sans:ital,wght@0,200..900;1,200..900&display=swap"
         rel="stylesheet">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
 
     <!-- Styles / Scripts -->
     @vite(['resources/css/app.css', 'resources/js/app.js'])
@@ -1306,90 +1301,90 @@
 
     <!-- Fever area -->
 
-    <main class="relative bg-[#0B0C2A] text-white min-h-[180vh] overflow-hidden container mx-auto px-3 lg:px-5">
+    <main class="relative bg-[#0B0C2A] text-white min-h-[180vh] overflow-hidden mx-auto px-3 lg:px-5">
         <img src="{{ asset('images/planets-top.svg') }}" alt="Top Planets"
-            class="absolute top-0 left-0 w-full z-0 opacity-80 pointer-events-none" />
+            class="absolute top-0 left-0 w-full opacity-80 pointer-events-none" />
 
         <!-- Bottom Behind -->
         <img src="{{ asset('images/planets-bottom-behind.svg') }}" alt="Bottom Behind Planets"
-            class="absolute bottom-0 right-0 w-full z-0 opacity-70 pointer-events-none" />
+            class="absolute bottom-0 right-0 w-full opacity-70 pointer-events-none" />
 
         <!-- Top Front -->
         <img src="{{ asset('images/planets-top-front.svg') }}" alt="Top Front Planets"
-            class="absolute top-0 right-0 w-full z-20 pointer-events-none" />
+            class="absolute top-0 right-0 w-full pointer-events-none" />
 
         <!-- Bottom Front -->
         <img src="{{ asset('images/planets-bottom.svg') }}" alt="Bottom Planets"
-            class="absolute bottom-0 left-0 w-full z-20 pointer-events-none" />
+            class="absolute bottom-0 left-0 w-full pointer-events-none" />
 
         <!-- Main Content -->
 
-        <div class="relative z-10 flex flex-col justify-center items-center text-center lg:py-24 py-5 px-4">
+        <div class="container relative flex flex-col justify-center items-center text-center lg:py-24 py-5 px-4">
             <img src="{{ asset('images/adocasts-plus-white-40.png') }}" alt="asocasts">
             <h1 class="text-xl font-semibold text-[#4E45E2] uppercase">Launch Into AdonisJS</h1>
             <div class="bg-[#161749] p-4 rounded-md mt-5 w-full max-w-[800px] h-auto flex items-center justify-center">
                 <div class="grid sm:grid-cols-1 lg:grid-cols-2 gap-5">
-                    <div class="lg:space-y-2 sm:text-right">
-                        <p class="flex items-center gap-2 text-[#93A2B7]"><i
+                    <div class="space-y-3 sm:text-right">
+                        <p class="flex items-center gap-x-3 text-[#93A2B7]"><i
                                 class="fa-solid fa-check text-[#4E45E2]"></i> Unlock all series, lessons, and
                             assets
                         </p>
-                        <p class="flex items-center gap-2 text-[#93A2B7]"><i
+                        <p class="flex items-center gap-x-3 text-[#93A2B7]"><i
                                 class="fa-solid fa-check text-[#4E45E2]"></i> 2 weeks early access to new lessons
                         </p>
-                        <p class="flex items-center gap-2 text-[#93A2B7]"><i
+                        <p class="flex items-center gap-x-3 text-[#93A2B7]"><i
                                 class="fa-solid fa-check text-[#4E45E2]"></i> Feed posts shared across the site</p>
                     </div>
                     <div class="lg:space-y-2 md:text-right">
-                        <p class="flex items-center gap-2 text-[#93A2B7]"><i
+                        <p class="flex items-center gap-x-3 text-[#93A2B7]"><i
                                 class="fa-solid fa-check text-[#4E45E2]"></i> Ad-free site experience</p>
-                        <p class="flex items-center gap-2 text-[#93A2B7]"><i
+                        <p class="flex items-center gap-x-3 text-[#93A2B7]"><i
                                 class="fa-solid fa-check text-[#4E45E2]"></i> Submit ads to run across
                             the site</p>
-                        <p class="flex items-center gap-2 text-[#93A2B7]"><i
+                        <p class="flex items-center gap-x-3 text-[#93A2B7]"><i
                                 class="fa-solid fa-check text-[#4E45E2]"></i> Renewal reminders; cancel
                             anytime</p>
                     </div>
                 </div>
             </div>
         </div>
-        <div class="">
+        <div class="relative z-50">
             <div
-                class="grid sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5 bg-[#181742] p-10 rounded-md border-2 border-[#242551]">
-                <div class="">
-                    <img src="./img//adocasts-plus-white-40.png" alt="pic" class="w-20">
+                class="grid sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5 bg-[#181742] rounded-md border-4 border-[#242551]">
+                <div class="pt-12 pb-20 pl-10 pr-10">
+                    <img src="{{ asset('images/adocasts-plus-white-40.png') }}" alt="pic" class="w-20">
                     <h1 class="text-2xl font-bold">Monthly</h1>
                     <div class="flex gap-5">
-                        <h1 class="text-7xl pt-3">$8</h1>
+                        <h1 class="text-7xl py-5">$8</h1>
                         <p class="pt-14 text-[#93A2B7]">/ month</p>
                     </div>
-                    <p class="text-[#93A2B7] text-[18px] py-1">Take things month-by-month with one low price to
+                    <p class="text-[#93A2B7] text-[20px] pb-7">Take things month-by-month with one low price to
                         unlock
                         everything!</p>
                     <button class="bg-[#E6E8EB] text-[#1A1847] w-full mt-3 py-2 rounded-md font-semibold">Get
                         Started</button>
                 </div>
-                <div class="">
-                    <img src="./img//adocasts-plus-white-40.png" alt="" class="w-20">
+                <div class="rounded-md border-4 border-[#4F46E5] pt-12 pb-20 pl-10 pr-10">
+                    <img src="{{ asset('images/adocasts-plus-white-40.png') }}" alt="" class="w-20">
                     <h1 class="text-2xl font-bold">Annually</h1>
                     <div class="flex gap-5">
-                        <h1 class="text-7xl pt-3">$80</h1>
+                        <h1 class="text-7xl py-5">$80</h1>
                         <p class="pt-14 text-[#93A2B7]">/ year</p>
                     </div>
-                    <p class="text-[#93A2B7] text-[18px] py-1">Take things year-by-year with one low price to
+                    <p class="text-[#93A2B7] text-[20px] pb-7">Take things year-by-year with one low price to
                         unlock
                         everything!</p>
                     <button class="bg-[#E6E8EB] text-[#1A1847] w-full mt-3 py-2 rounded-md font-semibold">Get
                         Started</button>
                 </div>
-                <div class="">
-                    <img src="./img/adocasts-plus-white-40.png" alt="" class="w-20">
+                <div class="pt-12 pb-20 pl-6 pr-6">
+                    <img src="{{ asset('images/adocasts-plus-white-40.png') }}" alt="pic" class="w-20">
                     <h1 class="text-2xl font-bold">Forever</h1>
                     <div class="flex gap-5">
-                        <h1 class="text-7xl pt-3">$285</h1>
+                        <h1 class="text-7xl py-5">$285</h1>
                         <p class="pt-14 text-[#93A2B7]">/ lifetime</p>
                     </div>
-                    <p class="text-[#93A2B7] text-[18px] py-1">Hate subscriptions? Me too! Pay once, then never
+                    <p class="text-[#93A2B7] text-[20px] pb-7">Hate subscriptions? Me too! Pay once, then never
                         again
                         with our forever plan.</p>
                     <button class="bg-[#E6E8EB] text-[#1A1847] w-full mt-3 py-2 rounded-md font-semibold">Get
