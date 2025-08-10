@@ -78,17 +78,17 @@
                 </div>
                 <div class="flex items-center gap-3">
                     <div
-                        class="bg-slate-200 p-2 text-black rounded-lg hover:bg-gray-300 hover:cursor-pointer transition duration-500 ease-in-out">
+                        class="bg-[#1E293B] px-3 py-2 text-white rounded-lg hover:bg-[#334155] hover:cursor-pointer transition duration-500 ease-in-out">
                         <i class="fa-solid fa-magnifying-glass"></i>
                     </div>
                     <div
-                        class="bg-slate-200 p-2 text-blck rounded-lg hover:bg-gray-300 hover:cursor-pointer transition duration-500 ease-in-out">
+                        class="bg-[#1E293B] px-3 py-2 text-blck rounded-lg hover:bg-[#334155] hover:cursor-pointer transition duration-500 ease-in-out">
                         <i class="fa-solid fa-sun"></i>
                     </div>
                     <div class="hidden lg:flex gap-3 text-sm">
                         <button
-                            class="bg-black 00 text-white px-3 py-1.5 rounded-lg hover:bg-gray-300 hover:cursor-pointer transition duration-500 ease-in-out">SignIn</button>
-                        <button class="bg-gray-200 text-black px-3 py-1.5 rounded-lg">Sign Up</button>
+                            class="bg-[#1E293B] text-white px-3 py-2 rounded-lg hover:bg-gray-300 hover:cursor-pointer transition duration-500 ease-in-out">SignIn</button>
+                        <button class="bg-gray-200 text-black px-3 py-2 rounded-lg">Sign Up</button>
                     </div>
                 </div>
             </div>
@@ -96,6 +96,7 @@
         <!-- slider area -->
         <section
             class="relative bg-brand-base-950 md:bg-gradient-to-b from-[#050820] via-brand-base-950 to-brand-base-950 pt-24 pb-44 md:pb-72 lg:pb-96 xl:pt-24">
+            {{-- <div class="bg-[#1e1b4b] w-full absolute inset-0"></div> --}}
             <div class=" container mx-auto px-3 lg:px-5">
                 <div class="page relative z-20 mb-8">
                     <h1 class="uppercase text-7xl text-white font-bold">
@@ -1398,53 +1399,55 @@
     <!-- footer area -->
 
     <footer class="container mx-auto px-3 lg:px-5 pt-10 pb-3">
-        <div class="flex items-center justify-between gap-5">
+        <div class="flex items-center justify-between gap-5 text-[#94A3B8]">
             <div>
-                <h1 class="text-[#334155] uppercase text-2xl font-semibold">Content</h1>
-                <ul class="text-gray-600 hover:text-gray-800 hover:cursor-pointer py-1 space-y-1">
-                    <li><a href="#">Series</a></li>
-                    <li><a href="#">Topics</a></li>
-                    <li><a href="#">Lessons</a></li>
-                    <li><a href="#">Livestreams</a></li>
+                <h1 class="text-[#CBD5E1] uppercase text-xl font-semibold mb-2">Content</h1>
+                <ul class="hover:cursor-pointer py-1 space-y-3">
+                    <li class="hover:text-[#fff]"><a href="#">Series</a></li>
+                    <li class="hover:text-[#fff]"><a href="#">Topics</a></li>
+                    <li class="hover:text-[#fff]"><a href="#">Lessons</a></li>
+                    <li class="hover:text-[#fff]"><a href="#">Livestreams</a></li>
                 </ul>
             </div>
             <div>
-                <ul class="text-gray-600 hover:text-gray-800 hover:cursor-pointer py-1 space-y-1">
-                    <li><a href="#">Blog</a></li>
-                    <li><a href="#">Snippets</a></li>
-                    <li><a href="#">Schedule</a></li>
-                    <li><a href="#">Requests</a></li>
+                <ul class="hover:cursor-pointer py-1 space-y-3">
+                    <li class="hover:text-[#fff]"><a href="#">Blog</a></li>
+                    <li class="hover:text-[#fff]"><a href="#">Snippets</a></li>
+                    <li class="hover:text-[#fff]"><a href="#">Schedule</a></li>
+                    <li class="hover:text-[#fff]"><a href="#">Requests</a></li>
                 </ul>
             </div>
             <div>
-                <h1 class="text-[#334155] uppercase text-2xl font-semibold">Company</h1>
-                <ul class="text-gray-600 hover:text-gray-800 hover:cursor-pointer py-1 space-y-1">
-                    <li><a href="#">Credits</a></li>
-                    <li><a href="#">Contact Us</a></li>
-                    <li><a href="#">Pricing</a></li>
-                    <li><a href="#">Sitemap</a></li>
+                <h1 class="text-[#CBD5E1] uppercase text-xl font-semibold mb-2">Company</h1>
+                <ul class="hover:cursor-pointer py-1 space-y-3">
+                    <li class="hover:text-[#fff]"><a href="#">Credits</a></li>
+                    <li class="hover:text-[#fff]"><a href="#">Contact Us</a></li>
+                    <li class="hover:text-[#fff]"><a href="#">Pricing</a></li>
+                    <li class="hover:text-[#fff]"><a href="#">Sitemap</a></li>
                 </ul>
             </div>
             <div>
-                <h1 class="text-[#334155] uppercase text-2xl font-semibold">Legal</h1>
-                <ul class="text-gray-600 hover:text-gray-800 hover:cursor-pointer py-1 space-y-1">
-                    <li><a href="#">Cookies</a></li>
-                    <li><a href="#">Privacy</a></li>
-                    <li><a href="#">Terms</a></li>
-                    <li><a href="#">Guidelines</a></li>
+                <h1 class="text-[#CBD5E1] uppercase text-xl font-semibold mb-2">Legal</h1>
+                <ul class="hover:cursor-pointer py-1 space-y-3">
+                    <li class="hover:text-[#fff]"><a href="#">Cookies</a></li>
+                    <li class="hover:text-[#fff]"><a href="#">Privacy</a></li>
+                    <li class="hover:text-[#fff]"><a href="#">Terms</a></li>
+                    <li class="hover:text-[#fff]"><a href="#">Guidelines</a></li>
                 </ul>
             </div>
+
             <div class="mb-10">
-                <p class="text-[#1D283A] text-2xl">Subscribe to our newsletter</p>
-                <p class="text-gray-600 text-xl">To get a monthly roundup of our latest lessons.</p>
+                <p class="text-[#CBD5E1] uppercase text-[18px] font-semibold mb-1">Subscribe to our newsletter</p>
+                <p class="text-[#94A3B8] text-[17px]">To get a monthly roundup of our latest lessons.</p>
                 <div class="py-3">
                     <input type="text" name="email" placeholder="Email Address"
-                        class="py-2 px-1 border-2 hover:border-blue-600">
-                    <button class="text-white bg-[#634DBA] py-2 px-3 rounded-md">Subscribe</button>
+                        class="w-[63%] rounded-md text-[#E3E3E3] py-[13px] px-2 bg-[#0F172A]
+                        border border-[#1E293B] focus:border-[#4F46E5] outline-none">
+
+                    <button class="text-white bg-[#634DBA] py-[13px] px-5 rounded-md">Subscribe</button>
                 </div>
             </div>
         </div>
-        <div class="border border-gray-300 mt-3"></div>
         <div class="lg:flex items-center justify-between pt-3">
             <div class="text-black shrink-0">
                 <img src="./img//adocasts-plus-white-40.png" alt="" class="filter invert w-32">
@@ -1461,6 +1464,31 @@
             </div>
         </div>
     </footer>
+
+    <section class="bg-[#0A0F1C] text-[#B0B8C5] border-t border-[#1E293B]">
+        <div class="max-w-7xl mx-auto flex flex-col md:flex-row items-center justify-between py-4 px-6">
+
+            <!-- Left Logo -->
+            <div class="flex items-center">
+                <img src="{{ asset('images/adocasts-plus-white-40.png') }}" alt="AdCasts Logo" class="h-6">
+            </div>
+
+            <!-- Center Text -->
+            <div class="text-sm text-center my-2 md:my-0">
+                © 2025 Adocasts. All Rights Reserved.
+            </div>
+
+            <!-- Right Social Icons -->
+            <div class="flex items-center space-x-4 text-[#A0AEC0]">
+                <a href="#" class="hover:text-white"><i class="fab fa-github"></i></a>
+                <a href="#" class="hover:text-white"><i class="fab fa-youtube"></i></a>
+                <a href="#" class="hover:text-white"><i class="fas fa-butterfly"></i></a>
+                <a href="#" class="hover:text-white"><i class="fab fa-twitter"></i></a>
+                <a href="#" class="hover:text-white"><i class="fas fa-rss"></i></a>
+            </div>
+        </div>
+    </section>
+
 </body>
 
 </html>
