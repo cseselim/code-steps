@@ -248,6 +248,8 @@
                     <h4 class="text-[#94a3b8] uppercase font-semibold text-sm mb-3">latest form this series</h4>
                     <div class="flex items-center gap-5 text-[12px] text-[#94a3b8] mb-1">
                         <h5>Lesson 6.1</h5>
+
+
                         <span>.</span>
                         <h5>Aug 07</h5>
                     </div>
@@ -1302,7 +1304,7 @@
 
     <!-- Fever area -->
 
-    <main class="relative bg-[#0B0C2A] text-white min-h-[180vh] overflow-hidden mx-auto px-3 lg:px-5">
+    <main class="relative bg-[#0B0C2A] text-white pb-[200px] overflow-hidden mx-auto px-3 lg:px-5">
         <img src="{{ asset('images/planets-top.svg') }}" alt="Top Planets"
             class="absolute top-0 left-0 w-full opacity-80 pointer-events-none" />
 
@@ -1320,12 +1322,12 @@
 
         <!-- Main Content -->
 
-        <div class="container relative flex flex-col justify-center items-center text-center lg:py-24 py-5 px-4">
+        <div class="container relative flex flex-col justify-center items-center text-center lg:py-24 py-5 mt-5 px-4">
             <img src="{{ asset('images/adocasts-plus-white-40.png') }}" alt="asocasts">
             <h1 class="text-xl font-semibold text-[#4E45E2] uppercase">Launch Into AdonisJS</h1>
-            <div class="bg-[#161749] p-4 rounded-md mt-5 w-full max-w-[800px] h-auto flex items-center justify-center">
+            <div class="bg-[#161749] p-4 rounded-md mt-5 w-full max-w-[800px] mb-8 flex items-center justify-center">
                 <div class="grid sm:grid-cols-1 lg:grid-cols-2 gap-5">
-                    <div class="space-y-3 sm:text-right">
+                    <div class="space-y-4 sm:text-right">
                         <p class="flex items-center gap-x-3 text-[#93A2B7]"><i
                                 class="fa-solid fa-check text-[#4E45E2]"></i> Unlock all series, lessons, and
                             assets
@@ -1336,7 +1338,7 @@
                         <p class="flex items-center gap-x-3 text-[#93A2B7]"><i
                                 class="fa-solid fa-check text-[#4E45E2]"></i> Feed posts shared across the site</p>
                     </div>
-                    <div class="lg:space-y-2 md:text-right">
+                    <div class="lg:space-y-4 md:text-right">
                         <p class="flex items-center gap-x-3 text-[#93A2B7]"><i
                                 class="fa-solid fa-check text-[#4E45E2]"></i> Ad-free site experience</p>
                         <p class="flex items-center gap-x-3 text-[#93A2B7]"><i
@@ -1348,52 +1350,53 @@
                     </div>
                 </div>
             </div>
-        </div>
-        <div class="relative z-50">
-            <div
-                class="grid sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5 bg-[#181742] rounded-md border-4 border-[#242551]">
-                <div class="pt-12 pb-20 pl-10 pr-10">
-                    <img src="{{ asset('images/adocasts-plus-white-40.png') }}" alt="pic" class="w-20">
-                    <h1 class="text-2xl font-bold">Monthly</h1>
-                    <div class="flex gap-5">
-                        <h1 class="text-7xl py-5">$8</h1>
-                        <p class="pt-14 text-[#93A2B7]">/ month</p>
+
+            <div class="relative z-50">
+                <div
+                    class="grid sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5 bg-[#181742] rounded-md border-4 border-[#242551]">
+                    <div class="pt-12 pb-20 pl-10 pr-10">
+                        <img src="{{ asset('images/adocasts-plus-white-40.png') }}" alt="pic" class="w-20">
+                        <h1 class="text-2xl font-bold">Monthly</h1>
+                        <div class="flex gap-5">
+                            <h1 class="text-7xl py-5">$8</h1>
+                            <p class="pt-14 text-[#93A2B7]">/ month</p>
+                        </div>
+                        <p class="text-[#93A2B7] text-[20px] pb-7">Take things month-by-month with one low price to
+                            unlock
+                            everything!</p>
+                        <button class="bg-[#E6E8EB] text-[#1A1847] w-full mt-3 py-2 rounded-md font-semibold">Get
+                            Started</button>
                     </div>
-                    <p class="text-[#93A2B7] text-[20px] pb-7">Take things month-by-month with one low price to
-                        unlock
-                        everything!</p>
-                    <button class="bg-[#E6E8EB] text-[#1A1847] w-full mt-3 py-2 rounded-md font-semibold">Get
-                        Started</button>
-                </div>
-                <div class="rounded-md border-4 border-[#4F46E5] pt-12 pb-20 pl-10 pr-10">
-                    <img src="{{ asset('images/adocasts-plus-white-40.png') }}" alt="" class="w-20">
-                    <h1 class="text-2xl font-bold">Annually</h1>
-                    <div class="flex gap-5">
-                        <h1 class="text-7xl py-5">$80</h1>
-                        <p class="pt-14 text-[#93A2B7]">/ year</p>
+                    <div class="rounded-md border-4 border-[#4F46E5] pt-12 pb-20 pl-10 pr-10">
+                        <img src="{{ asset('images/adocasts-plus-white-40.png') }}" alt="" class="w-20">
+                        <h1 class="text-2xl font-bold">Annually</h1>
+                        <div class="flex gap-5">
+                            <h1 class="text-7xl py-5">$80</h1>
+                            <p class="pt-14 text-[#93A2B7]">/ year</p>
+                        </div>
+                        <p class="text-[#93A2B7] text-[20px] pb-7">Take things year-by-year with one low price to
+                            unlock
+                            everything!</p>
+                        <button class="bg-[#E6E8EB] text-[#1A1847] w-full mt-3 py-2 rounded-md font-semibold">Get
+                            Started</button>
                     </div>
-                    <p class="text-[#93A2B7] text-[20px] pb-7">Take things year-by-year with one low price to
-                        unlock
-                        everything!</p>
-                    <button class="bg-[#E6E8EB] text-[#1A1847] w-full mt-3 py-2 rounded-md font-semibold">Get
-                        Started</button>
-                </div>
-                <div class="pt-12 pb-20 pl-6 pr-6">
-                    <img src="{{ asset('images/adocasts-plus-white-40.png') }}" alt="pic" class="w-20">
-                    <h1 class="text-2xl font-bold">Forever</h1>
-                    <div class="flex gap-5">
-                        <h1 class="text-7xl py-5">$285</h1>
-                        <p class="pt-14 text-[#93A2B7]">/ lifetime</p>
+                    <div class="pt-12 pb-20 pl-6 pr-6">
+                        <img src="{{ asset('images/adocasts-plus-white-40.png') }}" alt="pic" class="w-20">
+                        <h1 class="text-2xl font-bold">Forever</h1>
+                        <div class="flex gap-5">
+                            <h1 class="text-7xl py-5">$285</h1>
+                            <p class="pt-14 text-[#93A2B7]">/ lifetime</p>
+                        </div>
+                        <p class="text-[#93A2B7] text-[20px] pb-7">Hate subscriptions? Me too! Pay once, then never
+                            again
+                            with our forever plan.</p>
+                        <button class="bg-[#E6E8EB] text-[#1A1847] w-full mt-3 py-2 rounded-md font-semibold">Get
+                            Started</button>
                     </div>
-                    <p class="text-[#93A2B7] text-[20px] pb-7">Hate subscriptions? Me too! Pay once, then never
-                        again
-                        with our forever plan.</p>
-                    <button class="bg-[#E6E8EB] text-[#1A1847] w-full mt-3 py-2 rounded-md font-semibold">Get
-                        Started</button>
                 </div>
             </div>
-        </div>
 
+        </div>
     </main>
 
     <!-- footer area -->
